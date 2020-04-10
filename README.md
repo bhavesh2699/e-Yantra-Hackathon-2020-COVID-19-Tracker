@@ -30,16 +30,19 @@ Further Home page is divided into 4 activities:
 
 ### Data Flow
 
-![](Flow.jpg)
+![](Flow.png)
 
 
 ### Useful Links:
 
 _PPT LINK_ https://docs.google.com/presentation/d/1OTjq3E2x2bZYLgFhVs3TD6T7y-e_1Wwr0Lj6Ca8-bjE/edit?usp=sharing
 
-_Repository LINK_ Made in React with hooks and context. This is written in typescript. Backend is powered by Express and MongoDB.
+_Repository LINK_ https://github.com/bhavesh2699/e-Yantra-Hackathon-2020---COVID-19-Tracker
 
 _APK LINK_ https://drive.google.com/open?id=1Og_0Tf5_WdCr6O-y0g73G-NV2nOMGEw3
 
 
 #### We have been featured in News:
+Pur team mate was in News for presenting his idea in front of SDM of Medta City.
+![](Flow.png)
+
