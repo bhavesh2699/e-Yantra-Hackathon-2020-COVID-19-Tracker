@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7E7E7E</color>
+    <color name="colorPrimarySecond">#292929</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorTotalConfirmed">#e60000</color>
+    <color name="colorTotalDeaths">#9999</color>
+    <color name="coloTotalRecovered">#7bb974</color>
+    <color name="lightGray">#F2F2F2</color>
+
+    <color name="disabledBtnBg">#999999</color>
+    <color name="developedbyritik">#FF7200</color>
+
+</resources>

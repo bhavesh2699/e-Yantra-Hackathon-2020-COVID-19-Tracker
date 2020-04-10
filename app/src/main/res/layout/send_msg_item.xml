@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dim_5">
+    <RelativeLayout
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_toStartOf="@+id/ivSendChatCard"
+            android:layout_marginStart="@dimen/dim_100"
+            android:layout_marginEnd="@dimen/dim_5"
+            android:lineSpacingExtra="@dimen/dim_2"
+            android:paddingStart="@dimen/dim_10"
+            android:paddingEnd="@dimen/dim_10"
+            android:paddingTop="@dimen/dim_5"
+            android:paddingBottom="@dimen/dim_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/msg_back"
+            android:text="hi" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ivSendChatCard"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            app:cardCornerRadius="@dimen/dim_15"
+            android:elevation="@dimen/dim_2"
+            app:cardElevation="@dimen/dim_2"
+            android:layout_gravity="center"
+            app:cardPreventCornerOverlap="false"
+            android:layout_width="@dimen/dim_30"
+            android:layout_height="@dimen/dim_30">
+            <ImageView
+                android:id="@+id/ivSendChat"
+                android:src="@drawable/robot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>

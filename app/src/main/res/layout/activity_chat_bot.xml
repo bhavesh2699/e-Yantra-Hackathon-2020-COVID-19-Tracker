@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimarySecond">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="Dr. Roger"
+        android:textSize="26sp"
+        android:layout_marginTop="@dimen/dim_10"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messagesRecyclerView"
+        android:layout_below="@id/title"
+        android:layout_above="@id/messageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/messageLayout"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:layout_margin="@dimen/dim_5"
+        android:paddingStart="@dimen/dim_15"
+        android:paddingEnd="@dimen/dim_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/messageEditText"
+            android:hint="Message..."
+            android:inputType="textShortMessage"
+            android:maxLines="6"
+            android:minHeight="@dimen/dim_30"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/SendTextAsButton"
+            android:text="Send"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@color/developedbyritik"
+            android:padding="@dimen/dim_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

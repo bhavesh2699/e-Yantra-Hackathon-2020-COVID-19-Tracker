@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimarySecond"
+    tools:context=".SymptomChecker">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/UserContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <EditText
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dim_35"
+                    android:textColorHint="@color/lightGray"
+                    android:hint="User Name" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/UserbtnContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+               <Button
+                   android:id="@+id/muserbtn"
+                   android:layout_marginTop="@dimen/dim_18"
+                   android:layout_marginBottom="@dimen/dim_10"
+                   android:layout_width="180dp"
+                   android:textColor="#fff"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/shape_more_btn"
+                   android:text="start symptom checker"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/tv_question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dim_35"
+                    tools:text="Question here" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ansContainer"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:textSize="@dimen/dim_35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/dim_30"
+                android:orientation="vertical"
+                android:id="@+id/mainpage"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:id="@+id/therisk"
+                    tools:text="Risk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dim_30"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="@dimen/dim_20"
+                    android:id="@+id/tnc"
+                    tools:text="tnc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/dim_18"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

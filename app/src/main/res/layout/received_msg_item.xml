@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/dim_5">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ivReceivedChatCard"
+        app:cardCornerRadius="@dimen/dim_15"
+        android:elevation="@dimen/dim_2"
+        app:cardElevation="@dimen/dim_2"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_width="@dimen/dim_30"
+        android:layout_height="@dimen/dim_30">
+        <ImageView
+            android:id="@+id/ivReceivedChat"
+            android:src="@drawable/robot"
+            android:padding="@dimen/dim_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tv_received"
+        android:layout_marginStart="@dimen/dim_5"
+        android:layout_marginEnd="@dimen/dim_100"
+        android:lineSpacingExtra="@dimen/dim_2"
+        android:paddingStart="@dimen/dim_10"
+        android:paddingEnd="@dimen/dim_10"
+        android:paddingTop="@dimen/dim_5"
+        android:paddingBottom="@dimen/dim_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/msg_back"
+        android:text="Dummy msg" />
+</LinearLayout>
