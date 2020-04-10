@@ -44,5 +44,5 @@ _APK LINK_ https://drive.google.com/open?id=1Og_0Tf5_WdCr6O-y0g73G-NV2nOMGEw3
 
 #### We have been featured in News:
 Pur team mate was in News for presenting his idea in front of SDM of Medta City.
-![](Flow.png)
+![](News.png)
 
