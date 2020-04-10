@@ -30,6 +30,7 @@ Further Home page is divided into 4 activities:
 
 ### Data Flow
 
+![](Images/Flow Diagram.PNG)
 
 
 ### Useful Links:
