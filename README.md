@@ -46,7 +46,7 @@ _Repository LINK_ https://github.com/bhavesh2699/e-Yantra-Hackathon-2020---COVID
 
 _APK LINK_ https://drive.google.com/open?id=1Og_0Tf5_WdCr6O-y0g73G-NV2nOMGEw3
 
-_Youtube LINK_ https://github.com/bhavesh2699/e-Yantra-Hackathon-2020---COVID-19-Tracker
+_Youtube LINK_ https://www.youtube.com/watch?v=14gNAuOwD5I
 
 
 
