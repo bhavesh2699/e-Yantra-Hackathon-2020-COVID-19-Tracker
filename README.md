@@ -3,7 +3,7 @@
 ### Title of the Project
 COVID-19 Tracker
 
-### Title of the Project
+### Team Members
 - Ritik Soni
 - Bhavesh Solanki
 - Ashok Chouhan
