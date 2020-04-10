@@ -16,7 +16,16 @@ Our idea is to provide reliable and sourced information in an analytical way to 
 - COVID-19 Analytical API
 
 ### Process Flow
+Their are 3 main activities:
+- Login Screen
+- Track Location Permission
+- Home Page
 
+Further Home page is divided into 4 activities:
+- current Status
+- Prevenive Measures
+- Track Symptoms
+- Chatbot
 
 
 ### Data Flow
@@ -32,27 +41,11 @@ not a lot of projects are done. I will keep updating it with real links when don
 
 #### binder: tinder for books
 
-_description_ do you wish to meet people who have read the same book so that you can talk hours about the same book? Try this.
+_PPT LINK_ https://docs.google.com/presentation/d/1OTjq3E2x2bZYLgFhVs3TD6T7y-e_1Wwr0Lj6Ca8-bjE/edit?usp=sharing
 
-_stack_ Made in React with hooks and context. This is written in typescript. Backend is powered by Express and MongoDB.
+_Repository LINK_ Made in React with hooks and context. This is written in typescript. Backend is powered by Express and MongoDB.
 
-_hosted link_ https://binder.netlify.com
+_APK LINK_ https://binder.netlify.com
 
-_github link_ https://github.com/tanaypratap/binder
 
-#### another project
-
-_description_
-
-_stack_ -->
-
-### blogs
-
-same as projects, I will keep updating my blogs as and when done.
-
-<!-- #### why I liked GraphQL over REST?
-
-_description_ I will write something really nice here so that you feel like reading my blog.
-
-_link_ https://dev.to/some-imaginary-link -->
- 
+#### We have been featured in News:
