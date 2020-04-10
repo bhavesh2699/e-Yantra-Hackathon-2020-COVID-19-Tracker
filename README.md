@@ -3,6 +3,11 @@
 ### Title of the Project
 COVID-19 Tracker
 
+### Title of the Project
+- Ritik Soni
+- Bhavesh Solanki
+- Ashok Chouhan
+- Arjit Chauhan (To be added)
 
 ## Description
 
@@ -41,8 +46,8 @@ _Repository LINK_ https://github.com/bhavesh2699/e-Yantra-Hackathon-2020---COVID
 
 _APK LINK_ https://drive.google.com/open?id=1Og_0Tf5_WdCr6O-y0g73G-NV2nOMGEw3
 
+_Youtube LINK_ https://github.com/bhavesh2699/e-Yantra-Hackathon-2020---COVID-19-Tracker
 
-#### We have been featured in News:
-Pur team mate was in News for presenting his idea in front of SDM of Medta City.
-![](News.png)
+
+
 
