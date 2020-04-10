@@ -34,18 +34,11 @@ Further Home page is divided into 4 activities:
 
 ### Useful Links:
 
-
-not a lot of projects are done. I will keep updating it with real links when done.
-
-<!-- My projects:
-
-#### binder: tinder for books
-
 _PPT LINK_ https://docs.google.com/presentation/d/1OTjq3E2x2bZYLgFhVs3TD6T7y-e_1Wwr0Lj6Ca8-bjE/edit?usp=sharing
 
 _Repository LINK_ Made in React with hooks and context. This is written in typescript. Backend is powered by Express and MongoDB.
 
-_APK LINK_ https://binder.netlify.com
+_APK LINK_ https://drive.google.com/open?id=1Og_0Tf5_WdCr6O-y0g73G-NV2nOMGEw3
 
 
 #### We have been featured in News:
